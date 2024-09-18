@@ -19,6 +19,10 @@ struct ContentView: View {
                     navigationScreen("Mesh Gradient") {
                         MeshGradientView()
                     }
+                    
+                    navigationScreen("Draggable Tabbar") {
+                        DraggableTabbarView()
+                    }
                 }
                 .padding()
             }
@@ -27,9 +31,11 @@ struct ContentView: View {
     
     @ViewBuilder
     func navigationScreen<Content: View>(_ title: String, @ViewBuilder content: @escaping () -> Content) -> some View {
-        Button(action: {
-            isSheetPresented = true
-        }) {
+        NavigationLink {
+            content()
+                .navigationBarBackButtonHidden()
+                .navigationTransition(.zoom(sourceID: UUID().uuidString, in: animation))
+        } label: {
             HStack {
                 Text("\(title)")
                     .font(.title3)
@@ -37,14 +43,10 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                Image(systemName: "chevron.up")
+                Image(systemName: "chevron.right")
                     .imageScale(.large)
                     .foregroundStyle(.text)
             }
-        }
-        .fullScreenCover(isPresented: $isSheetPresented) {
-            content()
-                .navigationTransition(.zoom(sourceID: UUID().uuidString, in: animation))
         }
     }
 }
