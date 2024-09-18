@@ -9,22 +9,44 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var isSheetPresented = false
+    @State private var isFullPresented = false
     @Namespace private var animation
     
     var body: some View {
         NavigationStack {
-            ScrollView(showsIndicators: false) {
-                VStack(spacing: 15) {
-                    navigationScreen("Mesh Gradient") {
-                        MeshGradientView()
+            VStack{
+                ScrollView(showsIndicators: false) {
+                    LazyVStack(spacing: 15) {
+                        navigationScreen("Mesh Gradient") {
+                            MeshGradientView()
+                        }
+                        
+                        navigationScreen("Draggable Tabbar") {
+                            DraggableTabbarView()
+                        }
+                        
+                        HStack {
+                            Text("Zoom Transitions")
+                                .font(.title3)
+                                .foregroundStyle(.text)
+                            
+                            Spacer()
+                            
+                            Image(systemName: "chevron.right")
+                                .imageScale(.large)
+                                .foregroundStyle(.text)
+                        }
+                        .contentShape(.rect)
+                        .onTapGesture {
+                            isFullPresented.toggle()
+                        }
                     }
-                    
-                    navigationScreen("Draggable Tabbar") {
-                        DraggableTabbarView()
-                    }
+                    .padding()
                 }
-                .padding()
+            }
+            .navigationTitle("IOS18, SWIFTUI")
+            .fullScreenCover(isPresented: $isFullPresented) {
+                ZoomTransitionsView()
             }
         }
     }

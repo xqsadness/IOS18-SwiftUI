@@ -13,7 +13,7 @@ struct Home: View {
         @Bindable var binding = properties
         NavigationStack{
             List{
-                Toggle("Edit tab locatiob", isOn: $binding.editMode)
+                Toggle("Edit tab location", isOn: $binding.editMode)
             }
             .navigationTitle("Home")
         }
