@@ -2,13 +2,13 @@
 //  ZoomTransitionsView.swift
 //  IOS18-SwiftUI
 //
-//  Created by darktech4 on 18/9/24.
+//  Created by xqsadness on 18/9/24.
 //
 
 import SwiftUI
 
 struct ZoomTransitionsView: View {
-    
+    @Environment(\.dismiss) var dismiss
     var sharedModel = SharedModel()
     @Namespace private var animation
     
@@ -56,6 +56,7 @@ struct ZoomTransitionsView: View {
         HStack {
             Button {
                 // Button Action
+                dismiss()
             } label: {
                 Image(systemName: "magnifyingglass")
                     .font(.title3)
@@ -65,6 +66,7 @@ struct ZoomTransitionsView: View {
             
             Button {
                 // Button Action
+                dismiss()
             } label: {
                 Image(systemName: "person.fill")
                     .font(.title3)

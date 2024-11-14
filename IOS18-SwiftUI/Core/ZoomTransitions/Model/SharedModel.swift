@@ -2,7 +2,7 @@
 //  SharedModel.swift
 //  IOS18-SwiftUI
 //
-//  Created by darktech4 on 18/9/24.
+//  Created by xqsadness on 18/9/24.
 //
 
 import SwiftUI

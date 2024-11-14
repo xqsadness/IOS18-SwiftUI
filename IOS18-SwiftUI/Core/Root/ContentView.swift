@@ -40,6 +40,10 @@ struct ContentView: View {
                         .onTapGesture {
                             isFullPresented.toggle()
                         }
+                        
+                        navigationScreen("Compositional Layout") {
+                            CompositionalGridLayoutView()
+                        }
                     }
                     .padding()
                 }
