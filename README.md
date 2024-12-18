@@ -6,3 +6,11 @@
 
 https://github.com/user-attachments/assets/1b193257-07a3-480f-a503-197c03b1c40c
 
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/CompositionalGridLayout" > Compositional Grid Layout </a>
+
+https://github.com/user-attachments/assets/2ec4bb40-21b4-4a9d-adf6-77c1eb294988
+
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/Toasts" > Toasts View </a>
+
+https://github.com/user-attachments/assets/d282328c-8481-49ec-8b97-60de20b6315a
+
