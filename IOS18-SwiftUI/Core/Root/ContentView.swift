@@ -44,6 +44,10 @@ struct ContentView: View {
                         navigationScreen("Compositional Layout") {
                             CompositionalGridLayoutView()
                         }
+                        
+                        navigationScreen("ToastView") {
+                            ToastView()
+                        }
                     }
                     .padding()
                 }
