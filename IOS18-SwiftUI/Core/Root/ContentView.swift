@@ -19,7 +19,7 @@ struct ContentView: View {
                     LazyVStack(spacing: 15) {
                         navigationScreen("Mesh Gradient") {
                             MeshGradientView()
-                        }
+                        };
                         
                         navigationScreen("Draggable Tabbar") {
                             DraggableTabbarView()
@@ -48,6 +48,10 @@ struct ContentView: View {
                         navigationScreen("ToastView") {
                             ToastView()
                         }
+                        
+                        navigationScreen("Custom Alert") {
+                            CustomAlertView()
+                        }
                     }
                     .padding()
                 }
@@ -55,8 +59,7 @@ struct ContentView: View {
             .navigationTitle("IOS18, SWIFTUI")
             .fullScreenCover(isPresented: $isFullPresented) {
                 ZoomTransitionsView()
-            }
-        }
+            }        }
     }
     
     @ViewBuilder
@@ -77,6 +80,7 @@ struct ContentView: View {
                     .imageScale(.large)
                     .foregroundStyle(.text)
             }
+            
         }
     }
 }
