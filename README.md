@@ -14,3 +14,7 @@ https://github.com/user-attachments/assets/2ec4bb40-21b4-4a9d-adf6-77c1eb294988
 
 https://github.com/user-attachments/assets/d282328c-8481-49ec-8b97-60de20b6315a
 
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/CustomAlerts" > Custom Alert </a>
+
+https://github.com/user-attachments/assets/11b5679b-3f21-4d4e-8ca7-ad524511018d
+
