@@ -18,3 +18,7 @@ https://github.com/user-attachments/assets/d282328c-8481-49ec-8b97-60de20b6315a
 
 https://github.com/user-attachments/assets/11b5679b-3f21-4d4e-8ca7-ad524511018d
 
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/AppleBookAnimation" > Apple Book UI </a>
+
+https://github.com/user-attachments/assets/f43fa006-c67e-4308-9fb3-02fc6fd8bfaa
+
