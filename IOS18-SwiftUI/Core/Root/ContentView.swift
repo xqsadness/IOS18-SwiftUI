@@ -52,6 +52,10 @@ struct ContentView: View {
                         navigationScreen("Custom Alert") {
                             CustomAlertView()
                         }
+                        
+                        navigationScreen("Apple Book Animation") {
+                            AppleBookAnimation()
+                        }
                     }
                     .padding()
                 }
@@ -59,7 +63,8 @@ struct ContentView: View {
             .navigationTitle("IOS18, SWIFTUI")
             .fullScreenCover(isPresented: $isFullPresented) {
                 ZoomTransitionsView()
-            }        }
+            }
+        }
     }
     
     @ViewBuilder
