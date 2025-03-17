@@ -32,7 +32,7 @@ struct BookCardView: View {
                 
                 OtherTextContents()
                     .padding(.horizontal, 15)
-                    .frame(maxWidth: size.width - (parentHorizontalPadding * 2))
+                    .frame(maxWidth: max(0, size.width - (parentHorizontalPadding * 2)))
                     .padding(.bottom, 50)
             }
             
@@ -132,7 +132,7 @@ struct BookCardView: View {
         }
         .foregroundStyle(.white)
         .padding(15)
-        .frame(width: size.width - (parentHorizontalPadding * 2))
+        .frame(maxWidth: max(0, size.width - (parentHorizontalPadding * 2)))
         .frame(maxWidth: .infinity)
         .background {
             Rectangle()

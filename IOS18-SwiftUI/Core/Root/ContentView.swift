@@ -56,6 +56,10 @@ struct ContentView: View {
                         navigationScreen("Apple Book Animation") {
                             AppleBookAnimation()
                         }
+                        
+                        navigationScreen("VisionOS Style Menu") {
+                            VisionOSStyleMenu()
+                        }
                     }
                     .padding()
                 }

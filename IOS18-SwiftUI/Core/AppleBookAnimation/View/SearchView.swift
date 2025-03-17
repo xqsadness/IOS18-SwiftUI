@@ -19,7 +19,7 @@ struct SearchView: View {
                         BookCardView(book: book, size: geometry.size){ isScrolled in
                             isAnyBookCardScrolled = isScrolled
                         }
-                        .frame(width: geometry.size.width - 30)
+                        .frame(width: max(0, geometry.size.width - 30))
                         // Let's Make currently active card to the top of the stack
                         .zIndex(activeID == book.id ? 1000 : 1)
                     }
