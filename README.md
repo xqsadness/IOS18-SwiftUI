@@ -22,3 +22,7 @@ https://github.com/user-attachments/assets/11b5679b-3f21-4d4e-8ca7-ad524511018d
 
 https://github.com/user-attachments/assets/f43fa006-c67e-4308-9fb3-02fc6fd8bfaa
 
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/VisionOSStyleMenu" > VisionOS Style Menu </a>
+
+https://github.com/user-attachments/assets/9530a2dd-329a-4dd8-9341-c0e7b63a5537
+
