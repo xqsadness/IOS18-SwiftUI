@@ -26,3 +26,11 @@ https://github.com/user-attachments/assets/f43fa006-c67e-4308-9fb3-02fc6fd8bfaa
 
 https://github.com/user-attachments/assets/9530a2dd-329a-4dd8-9341-c0e7b63a5537
 
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/WaveformAudio" > WaveForm audio Xcode 16+ </a>
+
+https://github.com/user-attachments/assets/c3e1a550-29da-43ec-b6e3-84f0948c798d
+
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/DynamicFloatingSheets" > Dynamic Floating Sheet Xcode 16+ </a>
+
+https://github.com/user-attachments/assets/e7bb2c8d-9352-4343-8cdb-e100612f5666
+
