@@ -60,6 +60,14 @@ struct ContentView: View {
                         navigationScreen("VisionOS Style Menu") {
                             VisionOSStyleMenu()
                         }
+                        
+                        navigationScreen("Waveform Audio") {
+                            WaveformView()
+                        }
+                        
+                        navigationScreen("Dynamic Floating Sheet") {
+                            DynamicFloatingSheetsView()
+                        }
                     }
                     .padding()
                 }
