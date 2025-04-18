@@ -34,3 +34,7 @@ https://github.com/user-attachments/assets/c3e1a550-29da-43ec-b6e3-84f0948c798d
 
 https://github.com/user-attachments/assets/e7bb2c8d-9352-4343-8cdb-e100612f5666
 
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/SliderControl" > Slide To Confirm Xcode 16+ IOS 17+ </a>
+
+https://github.com/user-attachments/assets/4316c87f-591e-481f-9164-cbe2d1c248c8
+
