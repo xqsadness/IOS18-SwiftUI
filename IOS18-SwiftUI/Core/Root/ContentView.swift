@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @Environment(\.isNetworkConnected) private var isConnected
+    @Environment(\.connectionType) private var connectionType
     @State private var isFullPresented = false
     @Namespace private var animation
     
@@ -68,6 +70,10 @@ struct ContentView: View {
                         navigationScreen("Dynamic Floating Sheet") {
                             DynamicFloatingSheetsView()
                         }
+                        
+                        navigationScreen("Home Control Slider") {
+                            HomeControlSlider()
+                        }
                     }
                     .padding()
                 }
@@ -76,6 +82,14 @@ struct ContentView: View {
             .fullScreenCover(isPresented: $isFullPresented) {
                 ZoomTransitionsView()
             }
+        }
+        .sheet(isPresented: .constant(!(isConnected ?? true))) {
+            NoInternetView()
+                .presentationDetents([.height(310)])
+                .presentationCornerRadius(0)
+                .presentationBackgroundInteraction(.disabled)
+                .presentationBackground(.clear)
+                .interactiveDismissDisabled()
         }
     }
     
