@@ -38,3 +38,13 @@ https://github.com/user-attachments/assets/e7bb2c8d-9352-4343-8cdb-e100612f5666
 
 https://github.com/user-attachments/assets/4316c87f-591e-481f-9164-cbe2d1c248c8
 
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/ResizableScrollViewHeader" > Resizable ScrollView Header </a>
+
+https://github.com/user-attachments/assets/3e02df91-ee4f-4fb0-bffc-92dc476e07f7
+
+<a href="https://github.com/xqsadness/IOS18-SwiftUI/tree/main/IOS18-SwiftUI/Core/InstagramProfileScroll" > Instagram Profile Scroll </a>
+
+https://github.com/user-attachments/assets/9efe5b4b-69e7-4191-a002-9f31509b17cc
+
+
+
