@@ -74,6 +74,14 @@ struct ContentView: View {
                         navigationScreen("Home Control Slider") {
                             HomeControlSlider()
                         }
+                        
+                        navigationScreen("Instagram Profile ScrollView") {
+                            InstagramProfileScrollView()
+                        }
+                        
+                        navigationScreen("Resizable ScrollView Header") {
+                            ResizableScrollViewHeaderView()
+                        }
                     }
                     .padding()
                 }
